@@ -1,0 +1,33 @@
+body {
+ 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #18223C;
+}
+
+.container {
+    text-align: center;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    
+}
