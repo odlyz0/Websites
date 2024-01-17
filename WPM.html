@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>WPM Tester</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
-
 </head>
 <body>
-    <div id="words-to-type"></div>
+    
     <div class="container">
-        <h1>WPM Tester</h1>
+        <div class="title">
+            <h1>WORD PER MINUTE TESTER</h1>
+        </div>
+        <div class="wordBox" id="word-box"> <p id="result"></p></div>
         <textarea id="text-to-type" placeholder="Start typing here..."></textarea>
-        <button id="start-btn">Start Test</button>
-        <p id="result"></p>
+        <button id="start-btn">Start</button>
+       
     </div>
-    <script src="script.js"></script>
+    <script src="WPM.js"></script>
 </body>
 </html>
 
