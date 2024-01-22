@@ -37,8 +37,8 @@ textarea {
     height: 50px;
     font-size: 16px;
     font-family: 'DotGothic16', sans-serif;
-    border: 35px solid #D3C3B9; /* Added border with the specified color */
-    border-radius: 5px; /* Added border-radius for rounded corners */
+    border: 35px solid #D3C3B9; 
+    border-radius: 5px; 
     
 }
 
@@ -56,6 +56,8 @@ button {
     font-family: 'DotGothic16', sans-serif;
     
 }
+
+
 
 
 
